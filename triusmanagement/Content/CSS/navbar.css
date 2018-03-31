@@ -1,0 +1,32 @@
+﻿.navbar {
+    margin-bottom: 0;
+    /*background-color: #2e8bcc;*/
+    background-color: #2e8bcc;
+    z-index: 9995;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    border-radius: 0;
+}
+
+    .navbar li a, .navbar .navbar-brand {
+        color: #fff !important;
+    }
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #336699 !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.menuazul {
+    background-color: #2e8bcc;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}

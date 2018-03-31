@@ -1,0 +1,194 @@
+﻿.bodylogin {
+    /*background-image: url('../fundo-restrita.png');*/
+    /*background-image: url('../Login-Page-Background.jpg');*/
+    background-image: url('../salgados.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:black;
+    padding: 100px;
+}
+
+.bodypagina {
+    margin-top: 60px;
+    background-image: url('../bk-admin.jpg');
+    background-size: cover;
+}
+
+.negrito {
+
+    font-weight: bolder;
+}
+
+.scroll {
+
+    overflow: auto;
+    max-height: 95vh;
+}
+
+.pequeno {
+
+    width: 30% !important;
+}
+
+
+tr: {
+    border: none !important;
+}
+
+@media print {
+
+    .bg-primary {
+        background-color: #2e8bcc !important;
+
+    }
+
+}
+
+.nopad {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.sempad{
+    padding: 0px !important;
+
+}
+
+.larguratotal {
+
+    width: 100%;
+}
+
+
+.mar6 {
+
+    margin-top: 6px !important;
+}
+
+.jumbologin {
+    background-color: rgba(235, 230, 230, 0.86);
+    z-index: 2;
+    box-shadow: 20px 21px 46px -7px rgba(0,0,0,0.75);
+}
+
+.jumbopagina {
+    background-color: rgba(235, 230, 230, 0.76) !important;
+    z-index: 2;
+    box-shadow: 0px 0px 43px -6px rgba(0,0,0,0.75);
+   /* margin-top: 10%;
+     border: double;*/
+}
+
+.texto-branco {
+
+    color:white;
+}
+
+.fundo-tabela {
+   // background-image: url('../fundo-restrita.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.89);
+}
+
+.botao-largo {
+width: 100%;
+}
+
+.grande {
+    font-size: 4em;
+}
+
+.rodape {
+    background-color: #2e8bcc;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 760px) {
+    .grande {
+        font-size: 2em;
+    }
+   
+    h3 {
+        font-size: 0.8em;
+    }
+
+    .rodape {
+        display: none;
+    }
+
+    .bodylogin {
+        background-size: auto;
+        padding: 20px;
+        padding-top: 100px;
+    }
+
+    .bodypagina {
+        margin-top: 60px;
+        background-image: url('../fundo-restrita.png');
+        background-size: auto;
+    }
+
+    .container-fluid {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    .modal-dialog {
+        margin: 0px;
+
+    }
+    
+}
+
+#framedomodalpedido {
+    height: 81vh;
+
+
+}
+
+#framedomodal {
+
+    max-height: 85vh;
+    overflow: auto;
+}
+
+
+.centralizado {
+
+    vertical-align: middle !important;
+}
+
+.modal-open .modal {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.open-sans {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.raleway {
+    font-family: 'Raleway', sans-serif !important;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'OpenSansCondensed-Light';
+    src: url('../fonts/OpenSansCondensed-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Light.ttf') format('truetype');
+}

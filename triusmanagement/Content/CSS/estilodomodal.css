@@ -1,0 +1,26 @@
+﻿
+
+.modal-header {
+    padding: 9px 15px;
+    border-bottom: 1px solid #eee;
+    background-color: #2e8bcc;
+    color: #fff;
+    text-align: center;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-topright: 6px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+
+.close {
+    color: #fff;
+    opacity: 1;
+}
+
+.modal {
+
+    z-index: 9999;
+}
